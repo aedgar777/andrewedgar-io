@@ -176,7 +176,7 @@ class _HomePageState extends State<HomePage> {
             Wrap( // Changed from Row to Wrap
               alignment: WrapAlignment.center,
               spacing: 80.0,
-              children: _buildAppBarActions(),
+              children: _buildAppBarActions(context),
             ),
           ],
         ),
@@ -202,10 +202,12 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  List<Widget> _buildAppBarActions() {
-    bool isNarrowScreen = MediaQuery.of(context).size.width < 600;
 
-    if (isNarrowScreen) {
+  List<Widget> _buildAppBarActions(BuildContext context) {
+    final mediaQuery = MediaQuery.of(context);
+    bool isMobile = mediaQuery.size.width < 768 || mediaQuery.devicePixelRatio > 2;
+
+    if (isMobile) {
       return [];
     }
     return <Widget>[
