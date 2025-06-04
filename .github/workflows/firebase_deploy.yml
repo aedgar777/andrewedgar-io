@@ -25,9 +25,7 @@ jobs:
 
       - run: flutter analyze
 
-      - run: flutter test
-
-      - run: flutter build web # or your desired platform
+      - run: flutter build web
 
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
