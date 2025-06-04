@@ -203,6 +203,11 @@ class _HomePageState extends State<HomePage> {
   }
 
   List<Widget> _buildAppBarActions() {
+    bool isNarrowScreen = MediaQuery.of(context).size.width < 600;
+
+    if (isNarrowScreen) {
+      return [];
+    }
     return <Widget>[
       _navButton('About', _aboutKey),
       _navButton('Portfolio', _portfolioKey),
