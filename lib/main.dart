@@ -1,8 +1,8 @@
 import 'package:andrewedgar_io/portfolio/portfolio_section.dart';
-import 'package:andrewedgar_io/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'footer.dart';
 
 
 
@@ -193,7 +193,7 @@ class _HomePageState extends State<HomePage> {
             children: <Widget>[
               AboutSection(key: _aboutKey),
               PortfolioSection(key: _portfolioKey),
-              const FooterSection(),
+              FooterSection(key: _contactKey),
             ],
           ),
         ),
@@ -317,60 +317,3 @@ class AboutSection extends StatelessWidget {
 
 
 
-class FooterSection extends StatelessWidget {
-  const FooterSection({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    final textTheme = Theme
-        .of(context)
-        .textTheme;
-    const String githubUrl = 'https://github.com/aedgar777';
-    const String linkedInUrl = 'https://www.linkedin.com/in/andrewdedgar/';
-
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.symmetric(vertical: 60.0, horizontal: 20.0),
-      color: Theme
-          .of(context)
-          .colorScheme
-          .surface
-          .withOpacity(0.5),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              IconButton(
-                  icon: const Icon(Icons.code_rounded),
-                  onPressed: () => launchURL(githubUrl),
-                  tooltip: 'GitHub'),
-              const SizedBox(width: 10),
-              IconButton(
-                  icon: const Icon(Icons.business_center_rounded),
-                  onPressed: () => launchURL(linkedInUrl),
-                  tooltip: 'LinkedIn'),
-            ],
-          ),
-          const SizedBox(height: 16),
-          Text(
-            '© ${DateTime
-                .now()
-                .year} Andrew Edgar',
-            style: textTheme.bodySmall
-                ?.copyWith(color: Colors.black.withOpacity(0.6)),
-            textAlign: TextAlign.center,
-          ),
-          Text(
-            'andrew@andrewedgar.io',
-            style: textTheme.bodySmall
-                ?.copyWith(color: Colors.black.withOpacity(0.6)),
-            textAlign: TextAlign.center,
-          )
-        ],
-      ),
-    );
-  }
-}
