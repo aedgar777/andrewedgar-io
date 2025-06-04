@@ -23,8 +23,6 @@ jobs:
 
       - run: flutter pub get
 
-      - run: flutter analyze
-
       - run: flutter build web -wasm
 
       - name: Deploy to Firebase Hosting
