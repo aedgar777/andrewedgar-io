@@ -303,7 +303,7 @@ class AboutSection extends StatelessWidget {
 
               const SizedBox(height: 24),
               Text(
-                "I'm an experienced software engineer who loves to build public-facing apps and games that make people happy. Have a look at my work so far, and let me know if you think we can do something better together.",
+                "I'm an software engineer who loves to build public-facing apps and games that make people happy. Have a look at my work so far, and let me know if you think we can do something better together.",
                 style: textTheme.bodyMedium,
                 textAlign: TextAlign.center,
               ),
