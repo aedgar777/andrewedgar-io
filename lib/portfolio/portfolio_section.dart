@@ -39,7 +39,7 @@ class PortfolioSection extends StatelessWidget {
     {
       'title': 'Theo/Maypole',
       'description':
-      'The first entry in my mobile development portfolio was Theo, a location-based messaging app that anchors chat rooms to physical locations. Theo was written in Java (with some Node.js cloud functions), and was built on the Google Cloud Platform with Firebase and the Google Places API. I am currently in the process of rebuilding and renaming Theo to be cross-platform on Android, iOS, and Web with Flutter. Stay tuned for Maypole!',
+      'The first entry in my mobile development portfolio was Theo, a location-based messaging app that anchors chat rooms to physical locations. Theo was written in Java (with some Node.js cloud functions), and was built on the Google Cloud Platform with Firebase and the Google Places API. I am currently in the process of rebuilding Theo (now Maypole) in Flutter to be cross-platform on Android, iOS, and Web. Stay tuned!',
       'imageUrl': 'https://firebasestorage.googleapis.com/v0/b/andrewedgar-io.firebasestorage.app/o/Wordpress-1024x576.png?alt=media&token=6bb3ad84-9875-4f05-ab10-73c146093720',
       'tags': 'Flutter, Dart, Firebase, Google Places API, Android, iOS, Web',
        'link': 'https://maypole.app/'
