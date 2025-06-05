@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
     const Color darkGrey = Color(0xFF333333); // Dark Grey for contrast
 
     return MaterialApp(
-      title: 'Andrew Edgar | Portfolio',
+      title: 'Andrew Edgar | Software Engineer',
       theme: ThemeData(
         brightness: Brightness.light,
         primaryColor: white,
