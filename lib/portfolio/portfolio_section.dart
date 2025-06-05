@@ -62,7 +62,7 @@ class PortfolioSection extends StatelessWidget {
           ),
           const SizedBox(height: 18),
           Text(
-            'I\'m an Android Engineer by trade, currently specializing in native Android development with Kotlin and Jetpack Compose. In my free time I\'ve been buildings side projects (like this site) in Flutter and a game Unreal 5, as well as learning about Machine Learning models with TensorFlow. Here are some of the projects I\'m most proud of.',
+            'I\'m an Android Engineer by trade, currently specializing in native Android development with Kotlin and Jetpack Compose. In my free time I\'ve been buildings side projects (like this site) in Flutter and a game in Unreal Engine 5, as well as learning about Machine Learning models with TensorFlow. Here are some of the projects I\'m most proud of.',
             style: textTheme.bodyMedium,
             textAlign: TextAlign.center
           ),
