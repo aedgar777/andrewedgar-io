@@ -11,7 +11,7 @@ class FooterSection extends StatelessWidget {
         .textTheme;
     const String githubUrl = 'https://github.com/aedgar777';
     const String linkedInUrl = 'https://www.linkedin.com/in/andrewdedgar/';
-    const String instagramUrl = 'https://www.instagram.com/https://www.instagram.com/andrew.d.edgar//';
+    const String instagramUrl = 'https://www.instagram.com/https://www.instagram.com/andrew.d.edgar/';
 
     return Container(
       width: double.infinity,
