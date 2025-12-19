@@ -65,7 +65,7 @@ const projects: Project[] = [
     },
     {
         title: 'MyKey TVM',
-        description: 'My first professional project was the software for a ticket vending machine made for IndyGo, Indianapolis\'s public transportation agency. My employer, Flowbird, built an account-based ticketing solution called MyKey for Indy\'s new express bus line, of which this machine is a key part. Having to work with proprietary hardware and our custom fork of open-source Android taught me a lot about working with low-level APIs, and developing such a complex app forced me improve my coding style and learn more about proper Android architecture. Naturally, I also had to learn a lot about encryption and security to make the machine process payments and pass updated account info to the back-end.',
+        description: 'My first professional project was the software for a ticket vending machine made for IndyGo, Indianapolis\'s public transportation agency. My employer, Flowbird, built an account-based ticketing solution called MyKey for Indy\'s new express bus line, of which this machine is a key part. Having to work with proprietary hardware and our custom fork of open-source Android taught me a lot about working with low-level APIs, and developing such a complex app forced me improve my coding style and learn more about proper Android architecture. Naturally, I also had to learn a lot about encryption and security to make the machine process payments and pass updated account info to the backend.',
         imageUrl: 'https://firebasestorage.googleapis.com/v0/b/andrewedgar-io.firebasestorage.app/o/indygo-1024x727.png?alt=media&token=283b8ccf-50e2-476c-8b92-5953a269ed05',
         tags: 'Native Android, Kotlin, AOSP, Embedded',
         link: 'https://www.indygo.net/'
