@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Andrew Edgar's portfolio website">
+    <title>Andrew Edgar | Software Engineer</title>
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / AppBar -->
+    <header id="header">
+        <div class="header-content">
+            <img src="https://firebasestorage.googleapis.com/v0/b/andrewedgar-io.firebasestorage.app/o/Andrew%20Edgar%20Logo%20AI.png?alt=media&token=f96d11d2-3076-449c-96e5-9a96697fb272" 
+                 alt="Andrew Edgar Logo" 
+                 class="logo"
+                 id="logo">
+            <nav class="nav-desktop" id="nav-desktop">
+                <button class="nav-button" data-target="about">ABOUT</button>
+                <button class="nav-button" data-target="portfolio">PORTFOLIO</button>
+                <button class="nav-button" data-target="contact">CONTACT</button>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Drawer -->
+    <div class="drawer" id="drawer">
+        <div class="drawer-header">Navigation</div>
+        <button class="drawer-item" data-target="about">About</button>
+        <button class="drawer-item" data-target="portfolio">Portfolio</button>
+        <button class="drawer-item" data-target="contact">Contact</button>
+    </div>
+
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <h1 class="about-title">Hi, I'm Andrew</h1>
+                <p class="about-description">
+                    I'm an software engineer who loves to build public-facing apps and games that make people happy. 
+                    Have a look at my work so far, and let me know if you think we can do something better together.
+                </p>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio-section">
+            <h2 class="portfolio-title">Projects</h2>
+            <p class="portfolio-intro">
+                I'm an Android Engineer by trade, currently specializing in native Android development with Kotlin and Jetpack Compose. 
+                In my free time I've been buildings side projects (like this site) in Flutter and a game in Unreal Engine 5, 
+                as well as learning about Machine Learning models with TensorFlow. Here are some of the projects I'm most proud of.
+            </p>
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Portfolio items will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Footer / Contact Section -->
+        <footer id="contact" class="footer-section">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/andrewdedgar/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <img src="assets/icons/InBug-White.png" alt="LinkedIn" class="social-icon">
+                </a>
+                <a href="https://www.instagram.com/andrew.d.edgar/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <img src="assets/icons/instagram.png" alt="Instagram" class="social-icon instagram-icon">
+                </a>
+                <a href="https://github.com/aedgar777" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <img src="assets/icons/github-mark-white.png" alt="GitHub" class="social-icon">
+                </a>
+            </div>
+            <p class="copyright">© <span id="current-year"></span> Andrew Edgar</p>
+            <p class="email">andrew@andrewedgar.io</p>
+        </footer>
+    </main>
+
+    <script type="module" src="../src/main.ts"></script>
+</body>
+</html>
