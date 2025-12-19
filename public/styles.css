@@ -291,6 +291,7 @@ header {
     width: 24px;
     height: 24px;
     transition: opacity 0.2s;
+    color: var(--white);
 }
 
 .instagram-icon {

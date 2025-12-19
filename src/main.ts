@@ -30,14 +30,14 @@ const projects: Project[] = [
 
     {
         title: 'Maypole',
-        description: 'TI am currently rewriting a location-based messaging app that was a past personal project. Maypole allows users to enter chat rooms connected to every physical location in Google\'s Place Database, and DM anyone they meet there. The app is being rebuilt using Flutter with MVVM architecture & Riverpods, Firebase Cloud Firestore, Cloud Functions, the Google Places API, and Google AdMob. Maypole is currently build-able on Android, iOS, and MacOS and will be deployed to each platform\'s respective app store, as well as web.',
+        description: 'I am currently rewriting a location-based messaging app that was a past personal project. Maypole allows users to enter chat rooms connected to every physical location in Google\'s Place Database, and DM anyone they meet there. The app is being rebuilt using Flutter with MVVM architecture & Riverpods, Firebase Cloud Firestore, Cloud Functions, the Google Places API, and Google AdMob. Maypole is currently build-able on Android, iOS, and MacOS and will be deployed to each platform\'s respective app store, as well as web.',
         imageUrl: 'https://firebasestorage.googleapis.com/v0/b/andrewedgar-io.firebasestorage.app/o/maypolebannerlogo.png?alt=media&token=73641b89-d4d2-4680-b108-1e116b645fdc',
         tags: 'Flutter, Dart, Firebase, Google Places API, Android, iOS, Web',
         link: 'https://maypole.app/'
     },
     {
         title: 'MyTelus AI chatbot',
-        description: 'TI integrated AI into the Android client of Telus\'s customer service chat bot built with Amazon Connect, and made the service cross-platform for syncing with iOS and web.',
+        description: 'I integrated AI into the Android client of Telus\'s customer service chat bot built with Amazon Connect, and made the service cross-platform for syncing with iOS and web.',
         imageUrl: 'https://firebasestorage.googleapis.com/v0/b/andrewedgar-io.firebasestorage.app/o/mytelus.png?alt=media&token=f91ff892-faec-4488-91c4-ff1974b6b51a',
         tags: 'Android, AI, Amazon Connect',
         link: 'https://play.google.com/store/apps/details?id=com.telus.myaccount&pcampaignid=web_share'
