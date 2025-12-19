@@ -6,9 +6,7 @@
   "scripts": {
     "build": "npm run clean && npm run build:ts && npm run build:copy",
     "build:ts": "tsc && vite build",
-    "build:copy": "npm run copy:assets && npm run copy:web",
-    "copy:assets": "cp -r assets dist/",
-    "copy:web": "cp public/favicon.png dist/ && cp public/manifest.json dist/",
+    "build:copy": "cp public/favicon.png dist/ && cp public/manifest.json dist/",
     "dev": "vite",
     "preview": "vite preview",
     "clean": "rm -rf dist",
