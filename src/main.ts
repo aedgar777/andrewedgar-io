@@ -30,7 +30,7 @@ const projects: Project[] = [
 
     {
         title: 'Maypole',
-        description: 'I am currently rewriting a location-based messaging app that was a past personal project. Maypole allows users to enter chat rooms connected to every physical location in Google\'s Place Database, and DM anyone they meet there. The app is being rebuilt using Flutter with MVVM architecture & Riverpods, Firebase Cloud Firestore, Cloud Functions, the Google Places API, and Google AdMob. Maypole is currently build-able on Android, iOS, and MacOS and will be deployed to each platform\'s respective app store, as well as web.',
+        description: 'Maypole is a location-based messaging app that allows users to enter chat rooms connected to every physical location in Google\'s Place Database, and DM anyone they meet there. After originally writing Maypole as my first project of my Android portfolio, I rebuilt it to be cross-platform using Flutter with MVVM architecture & Riverpods, Firebase Cloud Firestore, Cloud Functions, the Google Places API, and Google AdMob. Maypole is currently available on Android, iOS, and web, with experiments happening on MacOS, Windows, and Linux!',
         imageUrl: 'https://firebasestorage.googleapis.com/v0/b/andrewedgar-io.firebasestorage.app/o/maypolebannerlogo.png?alt=media&token=73641b89-d4d2-4680-b108-1e116b645fdc',
         tags: 'Flutter, Dart, Firebase, Google Places API, Android, iOS, Web',
         link: 'https://maypole.app/'
